@@ -23,6 +23,13 @@ nav{
     width: 25%;
     padding: 10px;
 }
+
+@media (max-width: 600px){
+    .nav{width: 100%;}
+    .main{width: 70%;}
+    .aside{width: 30%;}
+}
+
 main{
     border: 2px solid purple;
     float: left;
